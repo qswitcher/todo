@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can select a prority on a todo 1`] = `
+Array [
+  Object {
+    "priority": "High",
+    "text": "Walk the Dog",
+  },
+  Object {
+    "priority": "Low",
+    "text": "Ride bike",
+  },
+  Object {
+    "priority": "Med",
+    "text": "Get a haircut",
+  },
+  Object {
+    "priority": "High",
+    "text": "My new todo",
+  },
+]
+`;

@@ -1,0 +1,35 @@
+.TodoForm {
+	display: flex;
+	/* padding: 10px; */
+	margin: 10px;
+	border-radius: 6px;
+	text-align: left;
+}
+
+.TodoForm input[type='text'] {
+	margin-right: 10px;
+	padding: 10px;
+	flex-grow: 1;
+	width: 50%;
+	border-radius: 6px;
+	border: 1px solid lightgray;
+}
+
+.TodoForm select {
+	margin-right: 10px;
+	width: 50px;
+}
+
+::placeholder {
+	font-size: 14pt;
+}
+
+.TodoForm button {
+	font-size: 14pt;
+	padding: 10px 20px;
+	text-align: center;
+	width: 20%;
+	border-radius: 6px;
+	color: white;
+	background-color: black;
+}

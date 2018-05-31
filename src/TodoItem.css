@@ -1,0 +1,38 @@
+.TodoItem {
+	border: solid 1px lightgray;
+	margin: 10px;
+	border-radius: 6px;
+	display: flex;
+	padding: 10px;
+}
+
+.TodoItem-text {
+	padding: 10px;
+	text-align: left;
+	flex-grow: 1;
+}
+
+.TodoItem-delete {
+	height: 40px;
+	width: 40px;
+	color: white;
+	background-color: red;
+	border-radius: 6px;
+}
+
+.TodoItem-priority {
+	padding: 10px;
+	width: 10px;
+}
+
+.TodoItem--low::before {
+	content: '';
+}
+
+.TodoItem--med::before {
+	content: '!  ';
+}
+
+.TodoItem--high::before {
+	content: '!! ';
+}

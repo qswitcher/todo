@@ -1,0 +1,14 @@
+{
+    "python.pythonPath": "python3",
+    "prettier.eslintIntegration": true,
+
+    "prettier.tabWidth": 2,
+    "prettier.useTabs": false,
+
+    "editor.formatOnSave": true,
+    "extensions.ignoreRecommendations": true,
+    "typescript.check.tscVersion": false,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "typescript.check.npmIsInstalled": false,
+    "window.zoomLevel": -2
+}
